@@ -5,6 +5,4 @@ branches:
   only:
     - master
 script:
-  - ls -a
   - npm test
-  - npm run lint
