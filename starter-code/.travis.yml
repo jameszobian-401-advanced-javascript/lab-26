@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "stable"
+branches:
+  only:
+    - master
+script:
+  - ls -a
+  - npm test
+  - npm run lint
